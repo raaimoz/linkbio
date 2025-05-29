@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Twinkle+Star&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Ancizar Serif", serif;
 }
 body{
     width: 100%;
@@ -9,14 +11,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../assets/bg.computador.jpg);
+    background-position: center;
+    background-size: cover;
 }
 main{
     width: 300px;
     min-height: 300px;
     position: relative;
-    border: 1px solid black;
+    border: 2px solid #ffffff;
     padding: 76px 16px 16px 16px;
     border-radius: 16px;
+    background-color: #f3e1e180;
+    backdrop-filter: blur(2px);
 }
 .perfil {
     width: 120px;
@@ -27,7 +34,8 @@ main{
     translate: -50% -50%;
     overflow: hidden;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #fff;
     
 }
 
@@ -77,14 +85,22 @@ main{
     align-items: center;
     width: 100%;
     height: 32px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
-    background-color:#ac6136 ;
+    background-color:#4e6288 ;
     transition: .5s;
     color: #fafafa;
     text-decoration: none;
  }
  a:hover {
     background-color: #fafafa;
-    color: #ac6136;
+    color: #4e6288;
+ }
+ h1{
+   font-family: "Twinkle Star", cursive;
+   text-align: center;
+ }
+ p{
+   text-align: center;
+   margin: 16px 0;
  }
